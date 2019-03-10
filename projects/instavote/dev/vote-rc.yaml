@@ -18,5 +18,5 @@ spec:
     spec:
       containers:
       - name: app
-        image: initcron/oc-vote:v1
+        image: kapuveera/oc-vote:v1
     

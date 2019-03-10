@@ -11,5 +11,3 @@ spec:
   type: NodePort
   selector: 
     role: vote 
-
-    

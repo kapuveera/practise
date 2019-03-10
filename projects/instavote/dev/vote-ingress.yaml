@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: vote
+  name: vote-k8s
   namespace: instavote
   annotations:
     kubernetes.io/ingress.class: traefik
@@ -12,5 +12,5 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: vote
+          serviceName: vote-k8s
           servicePort: 80
